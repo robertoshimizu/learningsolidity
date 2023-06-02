@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "retrieve",
+				"name": "favoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,7 +22,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "_favoriteNumber",
 						"type": "uint256"
 					}
 				],
@@ -33,24 +33,8 @@
 			}
 		],
 		"devdoc": {
-			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
-			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {
-				"retrieve()": {
-					"details": "Return value ",
-					"returns": {
-						"_0": "value of 'number'"
-					}
-				},
-				"store(uint256)": {
-					"details": "Store value in variable",
-					"params": {
-						"num": "value to store"
-					}
-				}
-			},
-			"title": "Storage",
+			"methods": {},
 			"version": 1
 		},
 		"userdoc": {
@@ -61,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "Storage"
+			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -75,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
-			"license": "GPL-3.0",
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x490cd17caae20f65f973bc2635eef4cc309008e38fabd4b13bcd636eff5a92b8",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
-				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
+				"bzz-raw://6a833e7011eba57f4ec828e8ae330239df1ae7abfd5eb01d6ce1eb99a1adef8b",
+				"dweb:/ipfs/QmbCknGAZYUiXvKc4bzL21v1ULQ7mF2dcn4FtcMdnTUPEj"
 			]
 		}
 	},
