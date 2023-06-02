@@ -21,6 +21,22 @@ We need to deposit some fake ethereums, so we go to https://faucets.chain.link/,
 
 3. An IDE for coding, compiling and deploy smart contracts.
 
-We will use Remix. If you want to sync with github, consult these tutorials
-https://www.youtube.com/watch?v=FBOnbjdIPZo
-https://www.youtube.com/watch?v=9zZ5mk74n3E
+We will use Remix. If you want to sync with github, consult these 
+- https://www.youtube.com/watch?v=FBOnbjdIPZo
+- https://www.youtube.com/watch?v=9zZ5mk74n3E
+
+### Workflow
+
+1. Write your solidity smart contract (.sol file)
+- check pragma matches with compiler
+- solidity documentation
+
+2. Compile it
+
+- just click in the solidity icon left menu
+
+3. Deploy it
+- select environment: metamask, or a VM (fake accounts). This is to source the ethers needed to pay for the transactions.
+
+4. Check the Deployed Contracts and interact with it.
+
