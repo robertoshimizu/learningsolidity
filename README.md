@@ -14,7 +14,7 @@ You can visualize this account in [Etherscan](https://etherscan.io).
 
 2. An Ethereum blockchain test environment. 
 We will use sepolia, which is listed as Test Network in Metamask.
-We need to deposit some fake ethereums, so we go to https://faucets.chain.link/, link with metamask, and it will deposit 0.1 sepolia ethers. You can see this first transaction in etherscan (type the account number)
+We need to deposit some fake ethereums, so we go to https://faucets.chain.link/, link with metamask, and it will deposit 0.1 sepolia ethers. You can see this first transaction in https://sepolia.etherscan.io (type the account number)
 ![logo](sepolia.png "Receipt")
 
 
