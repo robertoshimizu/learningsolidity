@@ -21,4 +21,6 @@ We need to deposit some fake ethereums, so we go to https://faucets.chain.link/,
 
 3. An IDE for coding, compiling and deploy smart contracts.
 
-We will use Remix
+We will use Remix. If you want to sync with github, consult these tutorials
+https://www.youtube.com/watch?v=FBOnbjdIPZo
+https://www.youtube.com/watch?v=9zZ5mk74n3E
