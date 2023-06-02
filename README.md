@@ -29,7 +29,7 @@ We will use Remix. If you want to sync with github, consult these
 
 1. Write your solidity smart contract (.sol file)
 - check pragma matches with compiler
-- solidity documentation
+- solidity documentation https://docs.soliditylang.org/en/v0.8.20/
 
 2. Compile it
 
@@ -40,3 +40,7 @@ We will use Remix. If you want to sync with github, consult these
 
 4. Check the Deployed Contracts and interact with it.
 
+
+### Storage, Memory and the Stack
+
+The Ethereum Virtual Machine has three areas where it can store data: storage, memory and the stack.
